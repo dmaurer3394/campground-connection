@@ -1,0 +1,146 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background:#00551C;
+  height:100%;
+}
+
+a{color:#00551C;
+  text-decoration: none}
+
+#infodisplay{
+  background:#ff8533;
+  color: #00551C;
+  border-radius: 3px;
+  margin: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  /* margin:15px; */
+  /* padding: 10px; */
+}
+#submitBtn{
+  background:#00551C;
+  border:#00551C;
+  width:125px;
+}
+#parksloader{
+  padding-bottom: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#resultcards{
+  margin:auto;
+  width:75%;
+}
+
+#jumbo{
+    background-image: url(../images/camping-checklist.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+}
+#logo{
+  margin-left:100px;
+}
+.log{
+  display: flex;             
+  align-items: flex-end;
+}
+
+h1 button{
+  font-size: 100%;
+  font-family:inherit;
+  border:0;
+  padding:0;
+  background-color:transparent;
+}
+
+.form-control:focus{
+  border-color: #00551C;
+  box-shadow: 0px 1px 1px rgba(0, 85, 28, 0.075) inset, 0px 0px 8px rgba(0, 85, 28, 0.5);
+}
+
+option:focus{
+  border-color: #00551C;
+  box-shadow: 0px 1px 1px rgba(0, 85, 28, 0.075) inset, 0px 0px 8px rgba(0, 85, 28, 0.5);
+}
+
+
+select option:hover {
+  background:#00551C;
+ 
+}
+
+h1 button a:hover{
+  text-decoration:none;
+  color:#00551C;
+}
+
+#login{
+  background:#00551C;
+  border:#00551C;
+  width:125px;
+}
+#signup{
+  background:#00551C;
+  border:#00551C;
+  width:125px;
+}
+
+#signup:hover{
+  background:#337749;
+}
+#login:hover{
+  background:#337749;
+}
+#signupcontainer{
+  margin:auto;
+}
+
+#loginContainer{
+  margin:auto;
+}
+#logout {
+  background:#00551C;
+  color:white;
+  margin-right: 10px;
+  border:#00551C;
+}
+
+#campground{
+  background:#00551C;
+  border:#00551C;
+  color:white;
+}
+
+/* #parksloader{
+  margin: auto;
+} */
+
+.tripbar{
+  text-align:right;
+}
+/*index
+-more search inputs?
+-view your trips
+-style card displays
+*/
+
+/*park*/
+/*campground*/
+/*trips*/
+/*members*/
+/*signup*/
+/*login*/
+
+h5 {
+  margin-bottom: -35px;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.582);
+}

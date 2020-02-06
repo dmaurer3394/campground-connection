@@ -1,0 +1,63 @@
+<!--trip display-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Campground Connection</title>
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href=“https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap” rel=“stylesheet”>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="stylesheets/trips.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="js/trip.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron" id="jumbo">
+        <h1 id="titleHeader" class="display-4">
+            <button id="logo">
+                <a href="/search"><img src="./images/campconnectlogotrans.png" width="300px"></img></a>
+            </button>
+        </h1>
+        <hr class="my-4" />
+        <p class=log>
+            <a href="/logout"><button class="btn btn-sucess" id="logout">Log Out</button></a>
+            <a href="/search"><button class="btn btn-sucess" id="campground">Home</button></a>
+        </p>
+    </div>
+
+
+    <!--Search Park-->
+    <!--Requirements(park or campground, state)-->
+    <!--View Your Trips list of trip names if logged in-->
+    <div class="container">
+
+        <div class="row text-center" id="infodisplay">
+            <div class="col-12 infocol">
+                <h1 id="user-name"></h1>
+                <hr>
+            </div>
+            <hr>
+            <div class="col-12 text-center" id="trips"></div>
+            <h3 id="no-trips"></h3>
+            <!--Repeat Above-->
+            <!--possibly a trip map?-->
+            <!--Possibly a supply list?-->
+            <!--possibly a weather display?-->
+        </div>
+
+</body>
+
+</html>
